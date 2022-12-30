@@ -1,0 +1,15 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      First
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<div class="ion-padding">
+  <input type="text" [(ngModel)] = "firstName">
+  <input type="text" [(ngModel)] = "lastName">
+  <button (click) = "onClick()">Submit</button>
+</div>
+</ion-content>
